@@ -1,0 +1,23 @@
+.main-banner img{
+	left: 0;
+}
+
+.sidenav{
+	display: none;
+}
+.mobile{
+	*background: none;
+}
+
+.main-other .main-other-card ul li span{
+	*display: none;
+}
+.three-d-box{
+	*display: none;
+}
+.three-d-box .back{
+	*display: none;
+}
+.three-d-box .front{
+	*display: none;
+}

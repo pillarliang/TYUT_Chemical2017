@@ -1,0 +1,14 @@
+1.在CollegeNews.html中
+<div class="main-other-rightbar"></div>中新增内容
+2.新加CollegeNewsContent.html
+3.新加图片img ----1newsicon.png-----news-img.png-----
+3.在second-private.css中198行新加  /*首页学院新闻的二级页*/和/*学院新闻三级页*/
+4.在FileDownload.html中
+<div class="main-other-rightbar"></div>中新增内容
+5.新加FileDownloadContent.html
+6.在second-private.css中300行新加从 /*文件下载内容页*/到/*文件下载内容页止*/
+7.在LearnDynamic.html中
+<div class="main-other-rightbar"></div>中新增内容
+8.新加CollegeNewsContent.html
+9.在NoticeAnnouncement.html中
+<div class="main-other-rightbar"></div>中新增内容

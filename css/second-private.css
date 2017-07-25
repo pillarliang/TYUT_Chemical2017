@@ -1,0 +1,340 @@
+/*学院概况*/
+
+.main-other-rightbar {
+	width: 75%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+.main-other-rightbar-content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.blank-height {
+	height: 50px;
+}
+
+
+/*学院简介*/
+
+#frist-list1 {
+	width: 100%;
+}
+
+.main-other-rightbar-content h3 {
+	text-align: center;
+	width: 40%;
+	margin: 30px auto;
+	padding-bottom: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 3px solid #797979;
+}
+
+.main-other-rightbar-content h5 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0 0 30px 0;
+}
+
+.college-profile-text {
+	text-indent: 35px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #4e4d4d;
+}
+
+
+/*历史沿革*/
+
+#frist-list2 {
+	width: 100%;
+}
+
+#frist-list2 .history-img {
+	width: 90%;
+	margin-left: 10%;
+	height: auto;
+}
+
+
+/*领导*/
+
+#leader {
+	width: 100%;
+}
+
+#frist-list3 p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#frist-list4 p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#frist-list4 table {
+	width: 70%;
+	margin: 0 auto;
+	background: #cdffff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#frist-list4 table td {
+	padding: 5px;
+}
+
+
+/*办公引导*/
+
+#frist-list5 {
+	width: 100%;
+}
+
+
+/*校园风光*/
+
+#frist-list6 {
+	width: 100%;
+}
+
+.campus-scenery-img-one {
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+
+#frist-list6 img {
+	width: 90%;
+	margin-left: 5%;
+	height: 200px;
+}
+
+.campus-scenery-img-one p {
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+
+/*学院概况*/
+
+
+/*本科专业*/
+
+#second-list1 {
+	width: 100%;
+}
+
+.subject-rightbar ul li {
+	width: 80%;
+	float: right;
+	margin: 10px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.subject-rightbar ul li a {
+	display: block;
+	color: #000000;
+}
+
+.subject-rightbar li .text {
+	display: block;
+	float: left;
+	width: 60%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.subject-rightbar li .time {
+	color: #ababab;
+	float: right;
+	width: 30%;
+	padding-left: 10%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.subject-rightbar li:hover a {
+	color: #820000;
+}
+
+
+/*本科生  研究生 博士生 内容页*/
+
+.subject-details h3 {
+	width: 100%;
+	border-bottom: none;
+}
+
+.subject-details {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.major-subject-line {
+	margin-top: 60px;
+}
+
+.subject-details p {
+	text-indent: 35px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #4e4d4d;
+}
+
+.subject-details p a {
+	color: #000000;
+}
+
+
+/*首页学院新闻的二级页*/
+
+.college-news {
+	width: 100%;
+	margin-top: 70px;
+}
+
+.college-news ul li {
+	width: 90%;
+	float: right;
+	margin: 10px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.college-news ul li a {
+	display: block;
+	color: #000000;
+}
+
+.college-news-small-icon {
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+.college-news li .text {
+	display: block;
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-left: 10px;
+}
+
+.college-news li .time {
+	color: #ababab;
+	float: right;
+	width: 30%;
+	padding-left: 5%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.college-news-line {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.college-news li:hover a {
+	color: #820000;
+}
+
+.college-news-link {
+	margin-top: 60px;
+	text-align: center;
+}
+
+
+/*-------学院新闻的二级页止-----*/
+
+
+/*学院新闻三级页*/
+
+.college-news-detail-img {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 30%;
+}
+
+.college-news-detail-img img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.college-news-text {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30px;
+	line-height: 28px;
+}
+
+.college-news-link {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.college-news-link a {
+	color: #000000;
+}
+
+
+/*-------学院新闻三级页止------*/
+
+
+/*文件下载内容页*/
+
+.file-download .file-link {
+	color: #000000;
+	display: block;
+	text-align: center;
+}
+
+.file-download .file-link:hover {
+	color: #820000;
+}
+
+
+/*文件下载内容页止*/
+
+
+/**/
+
+@media only screen and (max-width: 1200px) {
+	.main-other-rightbar {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.campus-scenery-img-one {
+		width: 80%;
+	}
+	#history .history-img img {
+		width: 100%;
+	}
+	.campus-scenery-img-one {
+		width: 100%;
+		height: 200px;
+		float: left;
+	}
+	#campus-scenery img {
+		width: 90%;
+		height: 150px;
+	}
+}

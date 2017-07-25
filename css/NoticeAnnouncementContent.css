@@ -1,0 +1,24 @@
+.article-head{
+	width: 100%;
+	background: rgb(236,236,236);
+}
+.article-head h1{
+	text-align: center;
+	padding: 30px 0; 
+}
+.article-head span{
+	margin: 20px;
+	float: right;
+}
+.article-body{
+	padding: 20px;
+}
+.article-body p{
+	font-size: 16px;
+	text-indent: 2em;
+	padding: 5px 20px;
+}
+.article-text{
+	text-align: right;
+	margin: 20px;
+}

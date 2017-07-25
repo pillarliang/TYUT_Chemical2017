@@ -1,0 +1,499 @@
+* {
+			padding: 0;
+			margin: 0;
+			font-family: "微软雅黑";
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		img{
+			display: block;
+			border: 0;
+		}
+		button{
+			border: none;
+			outline: none;
+			background: none;
+		}
+		.clearfix:after{
+				content: "";
+				display: block;
+				height: 0;
+				overflow: hidden;
+				clear: both;
+			}
+			.clearfix{
+				*zoom: 1;
+			}
+		
+
+
+
+
+.main-center-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+.main-head{
+	background: white;
+}
+.main-head a{
+	float: left;
+}
+.main-head .logo-TYUT{
+	margin: 40px 10px 20px 20px;
+}
+.main-head .logo-chemical{
+	margin-top: 66px;
+	margin-left: 10%;
+}
+.main-head .main-center-container{
+	background-image: url(../img/main-head-pic.png);
+	background-repeat: no-repeat;
+	background-position: right top; 
+}
+@media only screen and (max-width: 840px) {
+	.main-head .main-center-container{
+		background-size:300px ;
+		background-position: right center; 
+	}	
+}
+
+
+
+
+
+
+
+.main-banner{
+	position: relative;
+	overflow: hidden;
+}
+.main-banner img{
+	
+	top: 0;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+
+.main-other{
+	overflow: hidden;
+}
+
+
+.main-other .main-other-leftbar{
+	float: left;
+	width: 23%;
+	height: auto;
+	padding: 20px 1%;
+	margin-top: 0px;
+	background: #fff;
+}
+
+
+
+.main-other .main-other-leftbar-card-first-head{
+	background: #efefef;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+
+.main-other .main-other-leftbar-card-first-head a{
+	font-size: 17px;
+	color: #000;
+}
+
+
+
+
+.main-other .main-other-leftbar-card-first-text{
+	display: block;
+	width: 100%;
+	text-indent: 40px;
+	margin: 14px 0 10px;
+	
+	color: #797979;
+	font-size: 16px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #c6c6c6;
+}
+
+
+.main-other .main-other-leftbar-card-first-text img{
+	display: inline-block;
+	margin-right: 6px;
+}
+.main-other .main-other-leftbar-card-first-text span{
+	float: right;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+/*选项卡*/
+.main-other .tab-head{
+	background: #efefef;
+	text-align: center;
+	border-radius: 10px;
+	margin: 50px 0 10px;
+}
+.main-other .tab-head button{
+	
+	border-radius: 10px;
+	
+	font-size: 17px;
+	padding: 10px;
+}
+.main-other .tab div{
+	padding: 0 20px;
+}
+.main-other .tab div li{
+	padding: 10px 0px;
+	color: #868585;
+	list-style-position:inside;
+	list-style-type: disc;
+	
+	/*单行文本溢出解决方案*/
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.main-other .tab div li a{
+	color: #868585;
+	font-size: 14px;
+}
+.main-other .tab div li a:hover{
+	color: red;
+}
+/*选项卡*/
+
+
+
+
+.main-other .main-other-leftbar-card-third-head{
+	background: #efefef;
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px 0;
+}
+
+.main-other .main-other-leftbar-card-third-head button{
+	font-size: 17px;
+	color: #000;
+	padding: 10px;
+	background: white;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+.main-other .main-other-card{
+	width: 32%;
+	height: 336px;
+	
+	margin: 30px 1.5% 0 2%;
+	padding: 0 1%;
+	float: left;
+}
+
+.main-other .main-other-card img:hover{
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
+
+
+.main-other .main-other-card-head{
+	height: 80px;
+}
+
+.main-other .main-other-card-title{
+	display: block;
+	position: relative;
+}
+.main-other .main-other-card-title img{
+	width: 88px;
+	position: absolute;
+	top: 10px;
+}
+.main-other .main-other-card-title img:hover{
+	transform: scale(1);
+}
+.main-other .main-other-card-title span{
+	position: absolute;
+	top: 20px;
+	left: 12px;
+	
+	color: white;
+}
+
+
+.main-other .main-other-more-text{
+	float: right;
+	margin: 20px;
+}
+
+.main-other .main-other-card ul{
+	padding: 0 4%;
+}
+.main-other .main-other-card ul li{
+	position: relative;
+	
+	margin: 8px 0;
+	list-style-type: disc!important;
+	
+	
+}
+.main-other .main-other-card ul li a{
+	position: absolute;
+	top: 3px;
+	
+	width: 240px;
+	color: #000000;
+	font-size: 14px;
+	
+	/*单行文本溢出解决方案*/
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.main-other .main-other-card ul li:hover{
+	color: red;
+}
+.main-other .main-other-card ul li a:hover{
+	color: red;
+}
+.main-other .main-other-card ul li span:hover{
+	color: #000000;
+}
+.main-other .main-other-card ul li span{
+	position: absolute;
+	top: 3px;
+	right: 0;
+ 
+	font-size: 13.3px;
+}
+
+
+.main-other .main-other-card-second-pic{
+	float: left;
+	margin: 10px 20px 10px 0;
+}
+.main-other-card-second p{
+	line-height: 2em;
+	text-indent: 2em;
+	margin-top: 10px;
+	font-size: 14px;
+	
+	
+}
+.main-other-card-second p a{
+	color: #409b2b;
+	font-size: 13.3px;
+}
+
+
+
+
+
+.main-other .main-other-card-third-pic{
+	width: 270px;
+	margin: 0 auto;
+}
+.main-other .main-other-card-third-pic img{
+	float: left;
+	
+	width: 125px;
+	margin:10px 5px;
+}
+.main-other .main-other-card-third p{
+	text-indent: 2em;
+	line-height: 1.6em;
+	font-size: 14px;
+	
+	/*定行文本溢出解决方案       （3行）*/
+    overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	line-height: 1.6em;
+	height: 4.5em;
+}
+
+
+
+
+.main-other .main-other-card-fourth{
+	background-position: 80% center;
+	background-image: url(../img/main-other-card-fourth-bg.png);
+	background-repeat: no-repeat;
+}
+.main-other .main-other-card-fourth-text{
+	width: 100%;
+	height: 32px;
+	/*margin: 6px 1% 6px 3%; */
+	margin: 6px 0;
+}
+.main-other .main-other-card-fourth-text span{
+	float: left;
+	line-height: 32px;
+	
+	font-size: 14px;
+}
+.main-other .main-other-card-fourth-text span img{
+	/*position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;*/
+	margin: auto;
+}
+.main-other .main-other-card-fourth-text span:nth-child(1){
+	width: 8%;
+	height: 32px;
+}
+.main-other .main-other-card-fourth-text span:nth-child(1) img{
+	margin-top: 5px;
+}
+.main-other .main-other-card-fourth-text span:nth-child(2){
+	margin-left: 4%;
+	width: 60%;
+	
+	/*单行文本溢出解决方案*/
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.main-other .main-other-card-fourth-text span:nth-child(3){
+	width: 28%;
+	text-align: right;
+	/*单行文本溢出解决方案*/
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+
+
+.main-foot{
+	margin-top: 66px;
+	margin-bottom: 30px;
+}
+.main-foot p{
+	text-align: center;
+	margin: 10px;
+}
+
+
+
+.main-bottom{
+	height: 40px;
+	background: #2e3b6c;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+	.main-center-container{
+		width: 100%;
+	}
+	
+	
+	.main-banner img{
+							height: 300px;
+						}
+	
+	
+	
+	.main-other .main-other-leftbar{
+		display: none;
+	}
+	
+	
+	.main-other .main-other-card{
+		width: 40%;
+		
+		margin: 30px 3% 0;
+		padding: 0 2%;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 1022px)
+{
+	.main-banner img{
+							height: 200px;
+						}
+	
+	
+						
+						.main-other .main-other-card ul li span{
+							display: none;
+						}
+}
+
+
+@media only screen and (max-width: 766px)
+		{
+						
+						
+						
+						.main-head{
+							display: none;
+						}
+						
+						.main-banner img{
+							height: 160px;
+						}
+						
+						.main-other .main-other-card{
+							width: 48%;
+							height: 336px;
+							
+							margin: 10px 0% 0;
+							padding: 0 1%;
+						}
+						
+						
+						
+						.main-other .main-other-card ul li a{
+							width: 96%;
+						}
+						
+		}
+		
+
+
+@media only screen and (max-width: 700px)
+{
+	.main-other .main-other-card{
+							width: 92%;
+							height: auto;
+							
+							padding: 0 4%;
+						}
+}
